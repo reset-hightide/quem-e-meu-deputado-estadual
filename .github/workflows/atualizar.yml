@@ -2,7 +2,7 @@ name: Atualizar dados dos deputados estaduais (SP)
 
 on:
   schedule:
-    - cron: "45 9 * * *"      # todo dia às 06:45 (horário de Brasília)
+    - cron: "33 6 * * *"      # todo dia às 03:33 (horário de Brasília)
   workflow_dispatch:           # permite rodar na mão pela aba Actions
 
 permissions:
